@@ -1,0 +1,31 @@
+div {
+    background-color: $couleur-Noir;
+}
+
+h1 {
+    color: $couleur-Blanc;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    color: $couleur-Blanc;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 5px 10px 5px 10px;
+    text-decoration-line:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.active {
+    text-decoration: underline $couleur-Blanc;
+    text-decoration-thickness: 2px;
+}
